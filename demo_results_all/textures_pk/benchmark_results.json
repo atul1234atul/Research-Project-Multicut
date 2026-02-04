@@ -1,0 +1,1320 @@
+{
+  "multicut_huffman": [
+    {
+      "compressed_size": 205120,
+      "compression_ratio": 1.9170046801872076,
+      "computation_time": 1.7078278064727783,
+      "num_regions": 3,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 569,
+      "cut_bits_est": 32512
+    },
+    {
+      "compressed_size": 60840,
+      "compression_ratio": 1.6157790927021696,
+      "computation_time": 0.23642182350158691,
+      "num_regions": 2,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 1382,
+      "cut_bits_est": 8064
+    },
+    {
+      "compressed_size": 61304,
+      "compression_ratio": 1.6035495236852408,
+      "computation_time": 0.24205327033996582,
+      "num_regions": 4,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 1529,
+      "cut_bits_est": 8064
+    },
+    {
+      "compressed_size": 50904,
+      "compression_ratio": 0.9655822725129656,
+      "computation_time": 0.11880779266357422,
+      "num_regions": 1,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 439,
+      "cut_bits_est": 4000
+    },
+    {
+      "compressed_size": 567032,
+      "compression_ratio": 1.3869270164646792,
+      "computation_time": 2.7638611793518066,
+      "num_regions": 5,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 6119,
+      "cut_bits_est": 65152
+    },
+    {
+      "compressed_size": 661920,
+      "compression_ratio": 1.1881073241479332,
+      "computation_time": 2.8188281059265137,
+      "num_regions": 16,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 10946,
+      "cut_bits_est": 65152
+    },
+    {
+      "compressed_size": 656472,
+      "compression_ratio": 1.19796731619932,
+      "computation_time": 0.24686646461486816,
+      "num_regions": 17,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 11158,
+      "cut_bits_est": 65152
+    },
+    {
+      "compressed_size": 356888,
+      "compression_ratio": 1.0329290982044788,
+      "computation_time": 1.0678033828735352,
+      "num_regions": 16,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 12790,
+      "cut_bits_est": 30464
+    },
+    {
+      "compressed_size": 314296,
+      "compression_ratio": 1.251100873062336,
+      "computation_time": 0.8774533271789551,
+      "num_regions": 2,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 2799,
+      "cut_bits_est": 32512
+    },
+    {
+      "compressed_size": 333080,
+      "compression_ratio": 1.1805452143629158,
+      "computation_time": 0.9378221035003662,
+      "num_regions": 10,
+      "is_lossless": true,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "cut_edges": 6700,
+      "cut_bits_est": 32512
+    }
+  ],
+  "lossless_methods": {
+    "Multicut-RLE": [
+      {
+        "compressed_size": 1171248,
+        "compression_ratio": 0.3357239457399287,
+        "computation_time": 1.7078278064727783,
+        "num_regions": 3,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 569,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 256432,
+        "compression_ratio": 0.38335309165782744,
+        "computation_time": 0.23642182350158691,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 1382,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 259344,
+        "compression_ratio": 0.3790486766611142,
+        "computation_time": 0.24205327033996582,
+        "num_regions": 4,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 1529,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 151584,
+        "compression_ratio": 0.32425585813806207,
+        "computation_time": 0.11880779266357422,
+        "num_regions": 1,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 439,
+        "cut_bits_est": 4000
+      },
+      {
+        "compressed_size": 2385832,
+        "compression_ratio": 0.3296258915128978,
+        "computation_time": 2.7638611793518066,
+        "num_regions": 5,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 6119,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 2379416,
+        "compression_ratio": 0.33051471453499515,
+        "computation_time": 2.8188281059265137,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 10946,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 2340144,
+        "compression_ratio": 0.33606137058232316,
+        "computation_time": 0.24686646461486816,
+        "num_regions": 17,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 11158,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 994008,
+        "compression_ratio": 0.37086220634039163,
+        "computation_time": 1.0678033828735352,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 12790,
+        "cut_bits_est": 30464
+      },
+      {
+        "compressed_size": 1184144,
+        "compression_ratio": 0.3320677214933319,
+        "computation_time": 0.8774533271789551,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 2799,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 1178776,
+        "compression_ratio": 0.33357991679504845,
+        "computation_time": 0.9378221035003662,
+        "num_regions": 10,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 6700,
+        "cut_bits_est": 32512
+      }
+    ],
+    "Multicut-Huffman": [
+      {
+        "compressed_size": 298568,
+        "compression_ratio": 1.317006511079553,
+        "computation_time": 1.7078278064727783,
+        "num_regions": 3,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 569,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 93472,
+        "compression_ratio": 1.0516946251283807,
+        "computation_time": 0.23642182350158691,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 1382,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 98448,
+        "compression_ratio": 0.9985372988785958,
+        "computation_time": 0.24205327033996582,
+        "num_regions": 4,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 1529,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 44784,
+        "compression_ratio": 1.097534833869239,
+        "computation_time": 0.11880779266357422,
+        "num_regions": 1,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 439,
+        "cut_bits_est": 4000
+      },
+      {
+        "compressed_size": 617520,
+        "compression_ratio": 1.2735328410415856,
+        "computation_time": 2.7638611793518066,
+        "num_regions": 5,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 6119,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 645712,
+        "compression_ratio": 1.2179299749733628,
+        "computation_time": 2.8188281059265137,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 10946,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 672392,
+        "compression_ratio": 1.169603445609109,
+        "computation_time": 0.24686646461486816,
+        "num_regions": 17,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 11158,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 389808,
+        "compression_ratio": 0.9456963428149243,
+        "computation_time": 1.0678033828735352,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 12790,
+        "cut_bits_est": 30464
+      },
+      {
+        "compressed_size": 317624,
+        "compression_ratio": 1.2379920912777371,
+        "computation_time": 0.8774533271789551,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 2799,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 369360,
+        "compression_ratio": 1.0645873944119557,
+        "computation_time": 0.9378221035003662,
+        "num_regions": 10,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Bit-model estimate (same segmentation)",
+        "validated": false,
+        "cut_edges": 6700,
+        "cut_bits_est": 32512
+      }
+    ],
+    "Multicut-Predictor+Zlib": [
+      {
+        "compressed_size": 205120,
+        "compression_ratio": 1.9170046801872076,
+        "computation_time": 1.7078278064727783,
+        "num_regions": 3,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 569,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 60840,
+        "compression_ratio": 1.6157790927021696,
+        "computation_time": 0.23642182350158691,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 1382,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 61304,
+        "compression_ratio": 1.6035495236852408,
+        "computation_time": 0.24205327033996582,
+        "num_regions": 4,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 1529,
+        "cut_bits_est": 8064
+      },
+      {
+        "compressed_size": 50904,
+        "compression_ratio": 0.9655822725129656,
+        "computation_time": 0.11880779266357422,
+        "num_regions": 1,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 439,
+        "cut_bits_est": 4000
+      },
+      {
+        "compressed_size": 567032,
+        "compression_ratio": 1.3869270164646792,
+        "computation_time": 2.7638611793518066,
+        "num_regions": 5,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 6119,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 661920,
+        "compression_ratio": 1.1881073241479332,
+        "computation_time": 2.8188281059265137,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 10946,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 656472,
+        "compression_ratio": 1.19796731619932,
+        "computation_time": 0.24686646461486816,
+        "num_regions": 17,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 11158,
+        "cut_bits_est": 65152
+      },
+      {
+        "compressed_size": 356888,
+        "compression_ratio": 1.0329290982044788,
+        "computation_time": 1.0678033828735352,
+        "num_regions": 16,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 12790,
+        "cut_bits_est": 30464
+      },
+      {
+        "compressed_size": 314296,
+        "compression_ratio": 1.251100873062336,
+        "computation_time": 0.8774533271789551,
+        "num_regions": 2,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 2799,
+        "cut_bits_est": 32512
+      },
+      {
+        "compressed_size": 333080,
+        "compression_ratio": 1.1805452143629158,
+        "computation_time": 0.9378221035003662,
+        "num_regions": 10,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "Native (Predictor + zlib/DEFLATE)",
+        "validated": true,
+        "cut_edges": 6700,
+        "cut_bits_est": 32512
+      }
+    ],
+    "PNG": [
+      {
+        "compressed_size": 173432,
+        "compression_ratio": 2.267263250149915,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 48064,
+        "compression_ratio": 2.045272969374168,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 47784,
+        "compression_ratio": 2.0572576594676044,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 37720,
+        "compression_ratio": 1.3030752916224815,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 459696,
+        "compression_ratio": 1.710765375378511,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 540744,
+        "compression_ratio": 1.4543517819892593,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 538712,
+        "compression_ratio": 1.459837538424984,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 318064,
+        "compression_ratio": 1.1590120227375622,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 245928,
+        "compression_ratio": 1.5989069971699035,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 265160,
+        "compression_ratio": 1.4829386031075578,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      }
+    ],
+    "JPEG-LS": [
+      {
+        "compressed_size": 150810,
+        "compression_ratio": 2.607352737672402,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 41794,
+        "compression_ratio": 2.3520639147802926,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 41551,
+        "compression_ratio": 2.365846308387745,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 32800,
+        "compression_ratio": 1.4985365853658537,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 399735,
+        "compression_ratio": 1.9673801816852876,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 470212,
+        "compression_ratio": 1.672504549287648,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 468445,
+        "compression_ratio": 1.6788131691887314,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 276577,
+        "compression_ratio": 1.3328638261481964,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 213850,
+        "compression_ratio": 1.838743046745389,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 230573,
+        "compression_ratio": 1.7053793935736914,
+        "is_lossless": true,
+        "type": "Lossless (Simulated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "JPEG2000-Lossless": [
+      {
+        "compressed_size": 138745,
+        "compression_ratio": 2.8340790626873935,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 38451,
+        "compression_ratio": 2.5565912117177096,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 38227,
+        "compression_ratio": 2.5715720743345054,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 30176,
+        "compression_ratio": 1.6288441145281018,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 367756,
+        "compression_ratio": 2.138456719223139,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 432595,
+        "compression_ratio": 1.817939727486574,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 430969,
+        "compression_ratio": 1.82479692303123,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 254451,
+        "compression_ratio": 1.4487650284219526,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 196742,
+        "compression_ratio": 1.9986337464623793,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 212128,
+        "compression_ratio": 1.8536732538844471,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "JPEGXR-Lossless": [
+      {
+        "compressed_size": 144526,
+        "compression_ratio": 2.7207159001798975,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 40053,
+        "compression_ratio": 2.4543275632490014,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 39820,
+        "compression_ratio": 2.468709191361125,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 31433,
+        "compression_ratio": 1.5636903499469776,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 383080,
+        "compression_ratio": 2.052918450454213,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 450620,
+        "compression_ratio": 1.7452221383871112,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 448926,
+        "compression_ratio": 1.7518050461099808,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 265053,
+        "compression_ratio": 1.3908144272850747,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 204940,
+        "compression_ratio": 1.9186883966038841,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 220966,
+        "compression_ratio": 1.7795263237290693,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "WebP-Lossless": [
+      {
+        "compressed_size": 112592,
+        "compression_ratio": 3.492397328406992,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 27888,
+        "compression_ratio": 3.5249569707401034,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 27824,
+        "compression_ratio": 3.5330649798734903,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 19952,
+        "compression_ratio": 2.463512429831596,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 245584,
+        "compression_ratio": 3.202293309010359,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 248064,
+        "compression_ratio": 3.170278637770898,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 245200,
+        "compression_ratio": 3.2073083197389884,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 122160,
+        "compression_ratio": 3.017681728880157,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 125616,
+        "compression_ratio": 3.130301872372946,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      },
+      {
+        "compressed_size": 124544,
+        "compression_ratio": 3.157245632065776,
+        "is_lossless": true,
+        "type": "Lossless",
+        "tool": "OpenCV (native)",
+        "validated": true
+      }
+    ],
+    "BPG-Lossless": [
+      {
+        "compressed_size": 123880,
+        "compression_ratio": 3.1741685502098806,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 34331,
+        "compression_ratio": 2.863382157123835,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 34131,
+        "compression_ratio": 2.880160723254646,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 26942,
+        "compression_ratio": 1.824305408271474,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 328354,
+        "compression_ratio": 2.3950715255299153,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 386245,
+        "compression_ratio": 2.036092494784963,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 384794,
+        "compression_ratio": 2.0437725537949776,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 227188,
+        "compression_ratio": 1.622616831832587,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 175662,
+        "compression_ratio": 2.238469796037865,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 189400,
+        "compression_ratio": 2.0761140443505806,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "FLIF-Default": [
+      {
+        "compressed_size": 115621,
+        "compression_ratio": 3.400894875224872,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 32042,
+        "compression_ratio": 3.067909454061252,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 31855,
+        "compression_ratio": 3.085886489201407,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 25146,
+        "compression_ratio": 1.9546129374337222,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 306464,
+        "compression_ratio": 2.5661480630677667,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 360495,
+        "compression_ratio": 2.181527672983889,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 359141,
+        "compression_ratio": 2.189756307637476,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 212042,
+        "compression_ratio": 1.7385180341063433,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 163952,
+        "compression_ratio": 2.398360495754855,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 176773,
+        "compression_ratio": 2.2244079046613368,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "FLIF-NonInterlaced": [
+      {
+        "compressed_size": 119608,
+        "compression_ratio": 3.287531712717376,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 33147,
+        "compression_ratio": 2.965645805592543,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 32954,
+        "compression_ratio": 2.983023606228026,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 26013,
+        "compression_ratio": 1.889459172852598,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 317031,
+        "compression_ratio": 2.4806097942988408,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 372926,
+        "compression_ratio": 2.1088100838844257,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 371525,
+        "compression_ratio": 2.1167644307162266,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 219354,
+        "compression_ratio": 1.680567432969465,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 169605,
+        "compression_ratio": 2.3184151458963598,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      },
+      {
+        "compressed_size": 182868,
+        "compression_ratio": 2.150260974505959,
+        "is_lossless": true,
+        "type": "Lossless (Estimated)",
+        "tool": "Estimated",
+        "validated": false
+      }
+    ],
+    "Multicut-RLE_summary": {
+      "avg_compression_ratio": 0.345509339345592,
+      "std_compression_ratio": 0.021532867918228154,
+      "type": "Lossless",
+      "tool": "Bit-model estimate (same segmentation)",
+      "validated": false,
+      "is_lossless": true
+    },
+    "Multicut-Huffman_summary": {
+      "avg_compression_ratio": 1.1374115359084445,
+      "std_compression_ratio": 0.11777139539518615,
+      "type": "Lossless",
+      "tool": "Bit-model estimate (same segmentation)",
+      "validated": false,
+      "is_lossless": true
+    },
+    "Multicut-Predictor+Zlib_summary": {
+      "avg_compression_ratio": 1.3339492411529248,
+      "std_compression_ratio": 0.2813072365717517,
+      "type": "Lossless",
+      "tool": "Native (Predictor + zlib/DEFLATE)",
+      "validated": true,
+      "is_lossless": true
+    },
+    "PNG_summary": {
+      "avg_compression_ratio": 1.6538681489421947,
+      "std_compression_ratio": 0.3424970344328583,
+      "type": "Lossless",
+      "tool": "OpenCV (native)",
+      "validated": true,
+      "is_lossless": true
+    },
+    "JPEG-LS_summary": {
+      "avg_compression_ratio": 1.9019483712835235,
+      "std_compression_ratio": 0.393871589597787,
+      "type": "Lossless (Simulated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    },
+    "JPEG2000-Lossless_summary": {
+      "avg_compression_ratio": 2.0673351861777434,
+      "std_compression_ratio": 0.4281212930410729,
+      "type": "Lossless (Estimated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    },
+    "JPEGXR-Lossless_summary": {
+      "avg_compression_ratio": 1.9846417787306332,
+      "std_compression_ratio": 0.4109964413194299,
+      "type": "Lossless (Estimated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    },
+    "WebP-Lossless_summary": {
+      "avg_compression_ratio": 3.189904120869131,
+      "std_compression_ratio": 0.2973697919596485,
+      "type": "Lossless",
+      "tool": "OpenCV (native)",
+      "validated": true,
+      "is_lossless": true
+    },
+    "BPG-Lossless_summary": {
+      "avg_compression_ratio": 2.3154154085190726,
+      "std_compression_ratio": 0.47949584820600155,
+      "type": "Lossless (Estimated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    },
+    "FLIF-Default_summary": {
+      "avg_compression_ratio": 2.480802223413292,
+      "std_compression_ratio": 0.5137455516492875,
+      "type": "Lossless (Estimated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    },
+    "FLIF-NonInterlaced_summary": {
+      "avg_compression_ratio": 2.398108815966182,
+      "std_compression_ratio": 0.4966206999276445,
+      "type": "Lossless (Estimated)",
+      "tool": "Estimated",
+      "validated": false,
+      "is_lossless": true
+    }
+  },
+  "metadata": {
+    "num_images": 10,
+    "image_shapes": [
+      [
+        128,
+        128,
+        3
+      ],
+      [
+        64,
+        64,
+        3
+      ],
+      [
+        64,
+        64,
+        3
+      ],
+      [
+        64,
+        32,
+        3
+      ],
+      [
+        256,
+        128,
+        3
+      ],
+      [
+        256,
+        128,
+        3
+      ],
+      [
+        256,
+        128,
+        3
+      ],
+      [
+        96,
+        160,
+        3
+      ],
+      [
+        128,
+        128,
+        3
+      ],
+      [
+        128,
+        128,
+        3
+      ]
+    ],
+    "image_filenames": [
+      "!pkf_water1.png",
+      "+0mod_button1.png",
+      "+amod_button1.png",
+      "SW_Bark01.png",
+      "SW_Boards01a.png",
+      "SW_Boards01b.png",
+      "SW_Boards01c.png",
+      "SW_Cobble01.png",
+      "SW_Crate01.png",
+      "SW_Crate02.png"
+    ],
+    "timestamp": "2026-01-30 15:52:17",
+    "tools_available": {
+      "jxrencapp": false,
+      "bpgenc": false,
+      "bpgdec": false,
+      "flif": false
+    },
+    "max_dimension": "FULL_RES"
+  },
+  "multicut_huffman_summary": {
+    "avg_compression_ratio": 1.3339492411529248,
+    "std_compression_ratio": 0.2813072365717517,
+    "avg_computation_time": 1.101774525642395,
+    "avg_num_regions": 7.6,
+    "is_lossless": true,
+    "type": "Lossless",
+    "tool": "Native (Multicut + Huffman)"
+  }
+}

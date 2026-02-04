@@ -1,0 +1,48 @@
+================================================================================
+LOSSLESS COMPRESSION BENCHMARK: MULTICUT VARIANTS vs STANDARD LOSSLESS CODECS
+================================================================================
+
+All methods below are LOSSLESS (Multicut variants + standard codecs).
+
+Test Date: 2026-01-30 11:58:57
+Number of Images: 10
+
+External Tools:
+  jxrencapp: Not available (estimated)
+  bpgenc: Not available (estimated)
+  bpgdec: Not available (estimated)
+  flif: Not available (estimated)
+
+LOSSLESS COMPRESSION RESULTS:
+-------------------------------------------------------------------------------------
+Method                    Ratio Type                      Status         
+-------------------------------------------------------------------------------------
+Multicut-RLE               2.69x Lossless                  ~ Estimated    
+Multicut-Huffman           2.46x Lossless                  ~ Estimated    
+>>> Multicut-Predictor+Zlib    19.91x Lossless                  ✓ Validated    
+PNG                       27.85x Lossless                  ✓ Validated    
+JPEG-LS                   32.03x Lossless (Simulated)      ~ Estimated    
+JPEG2000-Lossless         34.82x Lossless (Estimated)      ~ Estimated    
+JPEGXR-Lossless           33.42x Lossless (Estimated)      ~ Estimated    
+WebP-Lossless             72.47x Lossless                  ✓ Validated    
+BPG-Lossless              39.00x Lossless (Estimated)      ~ Estimated    
+FLIF-Default              41.78x Lossless (Estimated)      ~ Estimated    
+FLIF-NonInterlaced        40.39x Lossless (Estimated)      ~ Estimated    
+-------------------------------------------------------------------------------------
+
+MEASURED RANKING (Validated only):
+--------------------------------------------------
+  #1  WebP-Lossless           72.47x
+  #2  PNG                     27.85x
+  #3  Multicut-Predictor+Zlib  19.91x
+  #4  Multicut-Huffman         2.46x (ours)
+
+COMPARISON WITH MULTICUT (Predictor+Zlib):
+--------------------------------------------------
+Multicut-Predictor+Zlib achieves 19.91x compression (LOSSLESS)
+
+  vs Multicut-Predictor+Zlib: +0.0% worse
+  vs PNG: -28.5% worse
+  vs WebP-Lossless: -72.5% worse
+
+Legend: ✓ = Validated (actual measurement), ~ = Estimated (reference only; not ranked)
